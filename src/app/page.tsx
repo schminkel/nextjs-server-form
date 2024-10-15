@@ -57,14 +57,14 @@ export default function Home() {
 
         <nav className="flex justify-center sm:justify-start">
           <Link
-            className="inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3 text-sm text-background transition-colors hover:bg-slate-800 sm:text-base"
+            className="inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3 text-sm text-background transition-colors hover:bg-primary/90 sm:text-base"
             href="/task"
             rel="noopener noreferrer"
           >
             Task Form
           </Link>
           <Link
-            className="ml-4 inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3 text-sm text-background transition-colors hover:bg-slate-800 sm:text-base"
+            className="ml-4 inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3 text-sm text-background transition-colors hover:bg-primary/90 sm:text-base"
             href="/action"
             rel="noopener noreferrer"
           >
