@@ -16,7 +16,14 @@ export default function Home() {
       <main className="flex flex-col gap-8">
         <section>
           <h2 className="sr-only">Project Information</h2>
-          <ol className="list-inside list-decimal space-y-4 font-mono text-sm sm:text-base">
+          <ol className="list-item list-inside space-y-4 font-mono text-sm">
+            <span className="text-sm">
+              This is an example of how to use forms in Next.js together with
+              server actions. That means, that the form data is validated on the
+              client and server side, the data is submitted to the server using
+              a function call (no REST API or fetch) and also server side errors
+              are pushed to the client if necessary.
+            </span>
             <li>
               We are using shadcn/ui for the UI with TailwindCSS and the
               following components:
@@ -31,14 +38,19 @@ export default function Home() {
               </ul>
             </li>
             <li>
-              The form uses the following dependencies:
+              The form and the server action use the following dependencies:
               <ul className="ml-6 mt-2 list-disc space-y-1 text-xs sm:text-sm">
-                <li>React Hook Form (Form management in React)</li>
                 <li>Zod (Type-safe schema validation in React)</li>
+                <li>React Hook Form (Form management in React)</li>
                 <li>ZSA-React (Type-safe server actions in Next.js)</li>
               </ul>
             </li>
-            <li>...</li>
+            <li>
+              The project is following a clean structure with clear separation
+              of concern. Having server-components, client-components,
+              server-actions, ui-components, lib, utils, use-cases, styles and
+              so on.
+            </li>
           </ol>
         </section>
 
