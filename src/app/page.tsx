@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -55,20 +56,20 @@ export default function Home() {
         </section>
 
         <nav className="flex justify-center sm:justify-start">
-          <a
-            className="inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3 text-sm text-background transition-colors hover:bg-opacity-90 sm:text-base"
+          <Link
+            className="inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3 text-sm text-background transition-colors hover:bg-slate-800 sm:text-base"
             href="/task"
             rel="noopener noreferrer"
           >
             Task Form
-          </a>
-          <a
-            className="ml-4 inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3 text-sm text-background transition-colors hover:bg-opacity-90 sm:text-base"
+          </Link>
+          <Link
+            className="ml-4 inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3 text-sm text-background transition-colors hover:bg-slate-800 sm:text-base"
             href="/action"
             rel="noopener noreferrer"
           >
             Action Button
-          </a>
+          </Link>
         </nav>
       </main>
     </div>
