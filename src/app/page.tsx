@@ -60,7 +60,7 @@ export default function Home() {
             href="/task"
             rel="noopener noreferrer"
           >
-            Create Task Form
+            Task Form
           </a>
         </nav>
       </main>
