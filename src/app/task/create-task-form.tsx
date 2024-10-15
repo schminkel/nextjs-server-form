@@ -29,7 +29,7 @@ import { Terminal, StarsIcon } from 'lucide-react'
  * This is the form schema for the create task form.
  * It uses Zod to validate the input.
  */
-const createTaskFormSchema = z.object({
+export const createTaskFormSchema = z.object({
   title: z
     .string()
     .min(3, { message: 'Title must be at least 3 characters long!' }),
