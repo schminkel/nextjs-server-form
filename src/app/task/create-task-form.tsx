@@ -24,16 +24,13 @@ import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 
 import { Terminal, StarsIcon } from 'lucide-react'
 
-/**
- * @description
- * This is the form schema for the create task form.
- * It uses Zod to validate the input.
- */
-export const createTaskFormSchema = z.object({
+export const taskSchema = {
   title: z
     .string()
     .min(3, { message: 'Title must be at least 3 characters long!' }),
-})
+}
+
+const createTaskFormSchema = z.object(taskSchema)
 
 /**
  * @description
