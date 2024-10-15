@@ -1,6 +1,6 @@
 # Next.js Form Example with Server Actions
 
-This project demonstrates how to use forms in Next.js together with server actions. It showcases client and server-side validation, server-side data submission without a REST API, and client-side error handling for server-side errors.
+This project demonstrates how to use forms / buttons in Next.js together with server actions. It showcases client and server-side validation, server-side data submission without a REST API, and client-side error handling for server-side errors.
 
 ## Project Overview
 

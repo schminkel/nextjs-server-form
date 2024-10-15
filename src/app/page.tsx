@@ -18,11 +18,11 @@ export default function Home() {
           <h2 className="sr-only">Project Information</h2>
           <ol className="list-item list-inside space-y-4 font-mono text-sm">
             <span className="text-sm">
-              This is an example of how to use forms in Next.js together with
-              server actions. That means, that the form data is validated on the
-              client and server side, the data is submitted to the server using
-              a function call (no REST API or fetch) and also server side errors
-              are pushed to the client if necessary.
+              This is an example of how to use forms / buttons in Next.js
+              together with server actions. That means, that the form data is
+              validated on the client and server side, the data is submitted to
+              the server using a function call (no REST API or fetch) and also
+              server side errors are pushed to the client if necessary.
             </span>
             <li>
               We are using shadcn/ui for the UI with TailwindCSS and the
@@ -61,6 +61,13 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Task Form
+          </a>
+          <a
+            className="ml-4 inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3 text-sm text-background transition-colors hover:bg-opacity-90 sm:text-base"
+            href="/action"
+            rel="noopener noreferrer"
+          >
+            Action Button
           </a>
         </nav>
       </main>
